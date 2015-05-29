@@ -4,13 +4,19 @@
     "created_at": "2015-05-29 13:01:50",
 
     "pips": [{
-        "name": "epubViewerTemplate",
+        "name": "epubViewerTemplateSingle",
         "template_path": "single.html"
+    },{
+        "name": "epubViewerTemplateBasic",
+        "template_path": "basic.html"
+    },{
+        "name": "epubViewerTemplatePromises",
+        "template_path": "promises.html"
     }],
 
     "piplines": [{
 	"filename": "*.epub",
-	"pipline": ["epubViewerTemplate"]
+	"pipline": ["epubViewerTemplateSingle"]
     }],
     
     "comment": "The End"
